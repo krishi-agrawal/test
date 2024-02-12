@@ -1,7 +1,7 @@
 import React,{useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import Fade from "react-reveal/Fade"
-import Muskan from "../../assets/images/MuskanDebnath__Resume.pdf"
+
 import Blast from '../BlastAnimation/Blast'
 import './header.scss'
 import useScript from "./useScript";
@@ -62,40 +62,27 @@ const Header = ({url}) => {
               </div>
               
             </Link> */}
-            {/* <Fade left>
-                  <a
-                    style={{ marginTop: "2rem" }}
-                    href={}
-                    download
-                    className="contact-button submit-button"
-                  >
-                    <div>
-                      <span className="bg switch__bg"></span>
-                      <span className="base switch__border-color"></span>
-                      <span className="text">Download CV</span>
-                    </div>
-                  </a>
-                </Fade> */}
+
               
             
         </main>
     </section>
-    </div>
-    <div className='buttonContact'>
+    {/* </div> */}
+    {/* <div className='buttonContact'>
     <Fade left>
         <a
           href={Muskan}
           download
-          className="contact-button submit-button"
+          className=""
         >
-          <div>
+          <div className="contact-button submit-button">
             <span className="bg switch__bg"></span>
             <span className="base switch__border-color"></span>
             <span className="text">Download CV</span>
             
           </div>
         </a>
-      </Fade>
+      </Fade> */}
     </div>
     
     </>

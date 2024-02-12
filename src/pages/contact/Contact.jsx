@@ -17,7 +17,7 @@ const Contact=()=>{
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_a937wz4','template_ju5vd3a', form.current,'U2MKQ3wQt4fZB4foH')
+    emailjs.sendForm('service_dbsfmsu','template_jdekn68', form.current,'aLI4UJWY4JZDKUfCd')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -69,7 +69,7 @@ const Contact=()=>{
             <div className="form-input-group">
               <input 
               type="text"
-              name='name'
+              name='customer_name'
               placeholder="Your Full Name"
               required
               />
@@ -78,7 +78,7 @@ const Contact=()=>{
             <div className="form-input-group">
               <input 
               type="text"
-              name='phone'
+              name='customer_phone'
               placeholder="Your Phone No"
               />
               <span className="switch__bg"></span>
@@ -89,7 +89,7 @@ const Contact=()=>{
           <div className="form-input-group">
               <input 
               type="text"
-              name='email'
+              name='customer_email'
               placeholder="Your Email Id"
               required 
               />
@@ -125,11 +125,6 @@ const Contact=()=>{
 
        
         </div>
-        <Reveal bottom>
-          <footer className="footer">
-            <p>&copy; copyright All Right Reserved Krishi -2024</p>
-          </footer>
-        </Reveal>
     </section>
 
     </>

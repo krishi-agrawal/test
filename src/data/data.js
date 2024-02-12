@@ -70,38 +70,20 @@ const sideBarMenu = [
     icon: <RiContactsLine className="link-icon" />,
     url: '/contact',
   },
-  // {
-  //   text: 'Tutorials',
-  //   icon: <SiFuturelearn className="link-icon" />,
-  //   url: '/tutorial',
-  // },
-  // {
-  //   text: 'Gaming',
-  //   icon: <IoLogoGameControllerB className="link-icon" />,
-  //   url: '/gaming',
-  // },
 ]
 // social media icons
 const socialIcons = [
   {
     icon: <GrGithub className="icon switch__color" />,
-    url: 'https://github.com/muskandn',
+    url: 'https://github.com/krishi-agrawal',
   },
   {
     icon: <FiLinkedin className="icon switch__color" />,
-    url: 'https://www.linkedin.com/in/muskandn/',
-  },
-  {
-    icon: <GrDribbble className="icon switch__color" />,
-    url: 'https://dribbble.com/muskandn',
-  },
-  {
-    icon: <GrTwitter className="icon switch__color" />,
-    url: 'https://twitter.com/muskandn',
+    url: 'https://www.linkedin.com/in/krishiagrawal/',
   },
   {
     icon: <GrInstagram className="icon switch__color" />,
-    url: 'https://www.instagram.com/pic_c.h.a.s.e.r/',
+    url: 'https://www.instagram.com/krishiiagrawal/',
   }
  
 ]

@@ -38,23 +38,23 @@ const About = ()=>{
                 <div  className="descpt" style={{maxWidth:"700px"}}>
                 <Fade bottom>
                   <p>
-                  I'm a Computer Science Undergrad student at Indian Institute of Information Technology and Management, Gwalior.
+                  I'm a Information Technology Undergrad student at Indian Institute of Information Technology and Management, Gwalior.
                   </p>
                 </Fade>
                 <Fade bottom>
                   <p >
                   I am a passionate Full Stack Developer who loves to explore new technologies and build scalable applications. 
-                  I love Automating tasks. I am also a Graphic Designer and an UI/UX designer. I love to work on Adobe PhotoShop.
+                  I love Automating tasks. I am also a Graphic Designer.
                   </p>
                 </Fade>
                 <Fade bottom>
                   <p>
-                  In love with Open Source.
+                  I am also trying Open Source.
                   </p>
                 </Fade>
                 <Fade bottom>
                   <p>
-                  If I need to define myself in one sentence that would be a tech-obsessed and an Artist!!!
+                  I'm a programmer and I love problem-solving. I get a kick out of solving Data Structures and Algorithms problems!
                   </p>
                 </Fade>
                 </div>
@@ -74,8 +74,8 @@ const About = ()=>{
                   </a>
                 </Fade> */}
                 <Fade left>
-                <Link to={"/contact"} className="contact-button">
-                  <div>
+                <Link to={"/contact"} >
+                  <div className="contact-button">
                     <span className='bg switch__bg'></span>
                     <span className='base switch__border-color'></span>
                     <span className='text'>Contact Me</span>
