@@ -1,0 +1,3 @@
+1024
+navbar absolute + fixed
+skillscard no increase

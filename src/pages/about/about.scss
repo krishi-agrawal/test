@@ -1,0 +1,230 @@
+.section-about {
+  position: relative;
+  margin-top: 55rem;
+}
+.section-about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding:8rem 4rem 13.8rem 12.2rem;
+  
+}
+.section-about-description {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.section-about-description h2 {
+  display: block;
+  font-size: 5rem;
+  margin-bottom: 25px;
+  .text-animate-hover {
+    &:hover {
+      color: var(--hover-color);
+    }
+  }
+}
+.both{
+display:grid; 
+grid-template-columns:75% 20%; 
+gap:5%
+}
+.progress__bar h2 {
+  font-size: 1.3rem;
+}
+
+.about__me{
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-tem),
+      transparent
+  );
+  display: grid;
+  place-items: center;
+}
+.about__me-image{
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg) ;
+  transition: var(transition);
+  
+}
+.about__me-image:hover{
+  transform: rotate(0) ;
+}
+.about__me-image img{
+// object-fit: contain;
+height: 150%;
+width: 100%;
+}
+.social-icon-about{
+  display: none;
+}
+
+
+@media screen and (min-width: 2000px) {
+  .section-about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:5rem 4rem 3.8rem 12.2rem;
+    
+  }
+  .section-about-description {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .section-about-description h2 {
+    font-size: 7rem;
+  }
+
+  .about__me{
+    width: 20%;
+    position: absolute;
+    right: 4rem;
+  }
+}
+
+// @media screen and (max-width: 1900px) {
+//   .section-about-description {
+//     grid-template-columns: 2fr 1fr;
+//     gap: 2rem;
+//   }
+//   .section-about-description h2 {
+//     font-size: 3.5rem;
+//   }
+//   .about-description-skills {
+//     grid-template-columns: repeat(5, 1fr);
+//     grid-gap: 2rem;
+//   }
+// }
+
+@media screen and (max-width: 1024px) {
+  .section-about-wrapper {
+    padding:10rem 4rem 13.8rem 2rem;
+  }
+
+  .section-about-description {
+    padding-top: 0;
+  }
+  .about-description-skills {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2rem;
+  }
+  .section-about-description h2 {
+    font-size: 2.5rem;
+  }
+  .section-about-description {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about__me{
+    width: 25%;
+    position: absolute;
+    right: 4rem;
+  }
+  .both{
+    grid-template-columns:90% 10%; 
+  }
+}
+
+// @media screen and (max-width: 980px) {
+//   .about-description-skills {
+//     grid-template-columns: repeat(4, 1fr);
+//   }
+//   .section-about-description {
+//     grid-template-columns: 1fr;
+//   }
+// }
+
+@media screen and (max-width: 768px) {
+  .section-about-wrapper {
+    padding:7rem 2rem 3rem 2rem;
+  }
+  .section-about-description h2 {
+    font-size: 2.3rem;
+  }
+  .about-description-skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .section-about-description {
+    grid-template-columns: 1fr;
+  }
+  .about__container{
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .descpt{
+    padding-top: 22rem;
+  }
+  
+
+.about__me{
+    width: 35%;
+    margin: 0rem 0 4rem;
+    left: 3rem;
+    top: 12.5rem;
+}
+
+.social-icon-about {
+  top:13.5rem;
+  right: 4rem;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 1rem;
+}
+.social-icon-about .icon {
+  font-size: 30px;
+  margin-right: 15px;
+  transition: 0.2s linear;
+  color: var(--color-tem);
+  &:hover {
+    color: var(--anchor-color);
+  }
+}
+}
+
+@media screen and (max-width: 450px) {
+  .both{
+    display: block;
+  }
+  .section-about {
+    margin-top: 35rem;
+  }
+  .social-icon-about {
+    top:13rem;
+    right: 2rem;
+
+  }
+  .social-icon-about .icon {
+    font-size: 20px;
+
+  }
+  .about__me{
+    width: 45%;
+    position: absolute;
+    right: 4rem;
+    top: 12rem;
+    left: 2rem;
+  }
+  .section-about-wrapper {
+    padding:7rem 2rem 4rem 2rem;
+  }
+  .descpt{
+    padding-top: 17rem;
+  }
+
+  .section-about-description {
+    grid-template-columns: 1fr;
+  }
+  .section-about-description h2 {
+    font-size: 2rem;
+  }
+
+  .section-about-description p {
+    font-size: 0.975rem;
+  }
+}
