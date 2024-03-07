@@ -38,17 +38,7 @@ const Skills = ()=>{
 Looking for a role in a company with the opportunity to work with the latest technologies on challenging and diverse projects.  
                   </p>
                 </Fade>
-                {/* <Fade bottom>
-                  <p >
-                    I’m from Ivory Coast but currently living in Nigeria. I’m a
-                    freelancer who loves building cool UI effects, dynamic
-                    webpages with amazing animations and creating intuitive,
-                    dynamic user experiences. I also love to reach out to new
-                    opportunities accross the globe that will enhance my skills
-                    and get the opporutinity to work with other programmers as
-                    well
-                  </p>
-                </Fade> */}
+
                 
                 </div>
                 

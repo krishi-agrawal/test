@@ -161,7 +161,7 @@
   h1,
   h2,
   h3,
-  h4,
+
   .nav__links:hover,
   .link-icon {
     color: rgb(240, 93, 70);
@@ -201,6 +201,9 @@
           #f05d46,
           transparent
       )
+    }
+    .section__projects-contents{
+      background: #f05d46;
     }
 }
 

@@ -10,7 +10,6 @@
     height: 420px;
     width: 102.7rem;
     margin: 2rem 0 2rem 0;
-    
   }
   
   .section__projects-single-projects img {
@@ -22,7 +21,7 @@
   .section__projects-contents {
     width: 100%;
     height: 100%;
-    background: #1c0800dd;
+    background: var(--color-tem);
     text-align: center;
     top: 0;
     left: 0;
@@ -38,6 +37,10 @@
   
   .section__projects-single-projects:hover .section__projects-contents {
     transform: translateY(0);
+    
+  }
+  .section__projects-single-projects:hover  .section__projects-single-projects{
+    transform: scale(0.5);
   }
   .section__projects-icon {
     position: absolute;

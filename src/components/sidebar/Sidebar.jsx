@@ -1,9 +1,7 @@
 import React from 'react'
 import {Link,NavLink} from 'react-router-dom'
 import {sideBarMenu,socialIcons} from "../../data/data"
-// import {HiMenu} from 'react-icons/hi'
-// import {GrClose} from 'react-icons/gr'
-import { BsXLg, BsListNested } from 'react-icons/bs'
+import { BsXLg} from 'react-icons/bs'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import './sidebar.scss'
 import logo from '../../assets/k_logo.png'

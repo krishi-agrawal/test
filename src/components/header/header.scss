@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .aside {
   width: 150px;
   height: 100%;
@@ -33,17 +34,32 @@ canvas {
     align-items: center;
     font-family: sans-serif;
     position: relative;
-    padding: 14rem 60rem 6rem 12.2rem;
+    padding: 8rem 60rem 6rem 12.2rem;
     
   }
-
+.svg-anime{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 300px;
+  // top: 10px;
+}
 .sidebar__logo1 img{
   width: 120px;
 }
 .student{
   font-size: 4rem;
 }
+.intro-page{
+  height: 100%;
+  width: 100%;
+  // display: flex;
+  // flex-direction: column;
+  // // justify-content: space-between;
+  // align-items: center;
+}
  .intro-page h1 {
+
     font-size: 6.5em;
     line-height: 6rem;
     letter-spacing: -1px;
@@ -53,30 +69,34 @@ canvas {
     position: absolute;
     z-index: 4;
   }
-  .intro-page h1 .home-logo {
-    width: 30px;
-    animation: fadeIn 2s linear;
-    // animation-delay: 1.4s;
-    fill: var(--color-tem);
+  .intro-page h4{
+    color: white;
+    font-family: "Cedarville Cursive", cursive;
   }
+  // .intro-page h1 .home-logo {
+  //   width: 30px;
+  //   animation: fadeIn 2s linear;
+  //   // animation-delay: 1.4s;
+  //   fill: var(--color-tem);
+  // }
   
-  .animate-logo-1 {
-    transition: 0.3s linear;
-    animation: logo 2s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
-  }
+  // .animate-logo-1 {
+  //   transition: 0.3s linear;
+  //   animation: logo 2s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+  // }
   
-  .animate-logo-2 {
-    animation: logo 7s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
-  }
+  // .animate-logo-2 {
+  //   animation: logo 7s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+  // }
   
-  @keyframes logo {
-    0% {
-      transform: translateY(-20px);
-    }
-    50% {
-      transform: translateY(40px);
-    }
-  }
+  // @keyframes logo {
+  //   0% {
+  //     transform: translateY(-20px);
+  //   }
+  //   50% {
+  //     transform: translateY(40px);
+  //   }
+  // }
   
   
   // .text-desc01{
@@ -468,7 +488,9 @@ canvas {
     top: 26rem;
     left:2rem 
   }
-  
+  .svg-anime{
+    visibility: hidden;
+  }
     
   }
   

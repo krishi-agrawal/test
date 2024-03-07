@@ -1,7 +1,7 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
 import { projects } from './index'
-import { Project } from '../../components'
+
 import { ProjectG } from '../../components'
 import { Blast } from '../../components'
 import './projectpage.scss'

@@ -59,20 +59,6 @@ const About = ()=>{
                 </Fade>
                 </div>
                 
-                {/* <Fade left>
-                  <a
-                    style={{ marginTop: "2rem" }}
-                    href={Sakshi}
-                    download
-                    className="contact-button submit-button"
-                  >
-                    <div>
-                      <span className="bg switch__bg"></span>
-                      <span className="base switch__border-color"></span>
-                      <span className="text">Download CV</span>
-                    </div>
-                  </a>
-                </Fade> */}
                 <Fade left>
                 <Link to={"/contact"} >
                   <div className="contact-button">
